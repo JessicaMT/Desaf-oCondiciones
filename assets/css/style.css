@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.stickers img {
+    cursor: pointer;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid transparent;
+}
+
+.stickers img.selected {
+    border: 2px solid red;
+}
